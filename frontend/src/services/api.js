@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:3001/api' // A URL base da sua API
+    baseURL: 'http://https://financecontrol-back.onrender.com/api' // A URL base da sua API
 });
 
 // Interceptor: Adiciona o token JWT a todas as requisições autenticadas
